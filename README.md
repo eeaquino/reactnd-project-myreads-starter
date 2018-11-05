@@ -2,7 +2,7 @@
 
 This is the  assessment project for Udacity's React Fundamentals course as part of the Front end web Developer nanodegree.
 
-##How to use
+## How to use
 
 This page will allow you to organize your boosk in several lists, to organize your library and also add more items by seraching the full library.   
 Click on the Green Button with the down arrow to move the book to a specific shelf, current one is indicated by a green backround color.  
