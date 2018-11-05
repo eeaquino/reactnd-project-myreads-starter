@@ -1,4 +1,4 @@
-html, body, .root {
+﻿html, body, .root {
   height: 100%;
 }
 body {
@@ -160,13 +160,17 @@ body, .app {
   opacity: 0;
   cursor: pointer;
 }
-
-/* book cover */
-
-.book-cover {
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  background: #eee;
-}
+    .book-shelf-changer select option {
+        padding: 0 10px;
+    }
+    .book-shelf-changer select option:checked {
+        background: #60ac5d;
+    }
+    /* book cover */
+    .book-cover {
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        background: #eee;
+    }
 .book-cover-title {
   padding: 20px 10px 0;
   text-align: center;
